@@ -1,0 +1,67 @@
+.tegs{
+    margin-top: 100px;
+}
+.tegs_title{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.tegs_box{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tegs_link{
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: var(--editor-style-button-hover, #fff);
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    line-height: 160%;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: .3s all;
+}
+.tegs_link:hover{
+    background: #5050FE;
+    color: white;
+}
+@media (max-width:800px) {
+    .tegs_title{
+        font-size: 55px;
+    }
+    .tegs_link{
+        padding: 8px 25px;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+}
+@media (max-width:650px) {
+    .tegs_title{
+        font-size: 50px;
+    }
+    .tegs_link{
+        padding: 8px 20px;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+    .tegs_box{
+        column-gap: 10px;
+    }
+}
+@media (max-width:460px) {
+    .tegs_title{
+        font-size: 40px;
+    }
+    .tegs_link{
+        padding: 6px 15px;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+}
